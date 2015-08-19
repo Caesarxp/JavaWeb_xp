@@ -1,0 +1,96 @@
+package com.beifeng.edit;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+public class MYFrame extends JFrame {
+
+	public MYFrame(int width, int height) {
+		this.setTitle("新建文本文件");
+		this.setSize(width, height);
+	}
+
+	public void setMenuBar() {
+		JMenuBar mb = new JMenuBar();
+
+		JMenu jm1 = new JMenu("文件");
+		JMenuItem openJI = new JMenuItem("打开");
+		
+		openJI.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JFileChooser chooser = new JFileChooser();
+				chooser.showOpenDialog(null);
+			}
+		});
+		
+		
+		JMenuItem saveJI = new JMenuItem("保存");
+		saveJI.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JFileChooser chooser = new JFileChooser();
+				chooser.showSaveDialog(null);
+			}
+		});
+		
+		
+		
+		JMenuItem saveasJI = new JMenuItem("另存为");
+		saveasJI.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JFileChooser chooser = new JFileChooser();
+				chooser.setDialogTitle("另存为");
+				chooser.showSaveDialog(null);
+			}
+		});
+		JMenuItem exitJI = new JMenuItem("退出");
+		
+		exitJI.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+			}
+			
+		});
+
+		jm1.add(openJI);
+		jm1.add(saveJI);
+		jm1.add(saveasJI);
+		jm1.add(exitJI);
+
+		JMenu jm2 = new JMenu("编辑");
+		JMenuItem cutJI = new JMenuItem("剪切");
+		JMenuItem pasteJI = new JMenuItem("粘帖");
+		JMenuItem copeJI = new JMenuItem("复制");
+		
+		jm2.add(cutJI);
+		jm2.add(pasteJI);
+		jm2.add(copeJI);
+		
+		
+		
+		JMenu jm3 = new JMenu("关于");
+		JMenuItem aboutJI = new JMenuItem("关于本软件");
+		jm3.add(aboutJI);
+
+		mb.add(jm1);
+		mb.add(jm2);
+		mb.add(jm3);
+		this.setJMenuBar(mb);
+	}
+	
+	public void setEditPanle() {
+		JScrollPane jsp = new JScrollPane();
+		JScrollBar jsb = new JScrollBar();
+		JTextArea jta = new JTextArea("2233");
+		jsp.add(jta);
+		this.getContentPane().add(jsp);
+	}
+}

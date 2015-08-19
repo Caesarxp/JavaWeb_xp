@@ -1,0 +1,7 @@
+package com.xp.from;
+
+import org.apache.struts.action.ActionForm;
+
+public class MyFrom extends ActionForm {
+
+}

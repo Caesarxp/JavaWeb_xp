@@ -1,0 +1,29 @@
+package com.xp.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import com.xp.from.MyFrom;
+import com.xp.model.MyManager;
+
+public class MyAction extends Action {
+
+	@Override
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response)
+			throws Exception {
+		MyFrom mf=(MyFrom)form;
+		String name=mf.getName();
+		String password=mf.getPassword();
+		MyManager mm=MyManager.getInstance();
+		
+		
+		return mapping.findForward("");
+	}
+
+}

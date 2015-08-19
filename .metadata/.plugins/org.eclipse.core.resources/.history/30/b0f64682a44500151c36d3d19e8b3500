@@ -1,0 +1,10 @@
+package com.xp.util;
+
+public class CalclatorTld {
+	
+	public static String Calcla(double v1,double v2,String flag){
+		String result=null;
+		
+		return result;
+	}
+}

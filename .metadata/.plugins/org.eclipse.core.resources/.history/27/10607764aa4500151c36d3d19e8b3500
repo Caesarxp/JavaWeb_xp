@@ -1,0 +1,31 @@
+package com.xp.util;
+
+import org.apache.struts.action.ActionForm;
+
+import com.xp.form.CalcuForm;
+
+public class CalclatorTld {
+	
+	public static String sum(ActionForm form){
+		double result = 0;
+		CalcuForm cf=(CalcuForm)form;
+		String flag=cf.getFlag();
+		double v1=cf.getValue1();
+		double v2=cf.getValue2();
+		if("+".equals(flag)){
+			result=v1+v2;
+		}
+		else if("-".equals(flag)){
+			result=v1-v2;
+		}
+		else if("*".equals(flag)){
+			
+			result=v1*v2;
+		}
+		else if("/".equals(flag)){
+		
+			result=v1/v2;
+		}
+		return result+"";
+	}
+}

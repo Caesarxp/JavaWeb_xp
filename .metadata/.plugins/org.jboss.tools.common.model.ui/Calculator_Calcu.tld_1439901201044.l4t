@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/Calculator/WebRoot/WEB-INF/Calcu.tld">
+ <TreeFormPage>
+  <Memento type="FileTLD_1_2">
+   <Memento collapsed="false" type="Tag Library Description"/>
+   <Memento collapsed="false" type="Defined Tags"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

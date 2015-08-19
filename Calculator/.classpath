@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/antlr.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/commons-validator.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/jakarta-struts-1.2.2/jakarta-struts-1.2.2/jakarta-struts-1.2.2/dist/lib/struts.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/struts_login/struts_login/WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="E:/javaweb开发/struts/struts_login/struts_login/WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

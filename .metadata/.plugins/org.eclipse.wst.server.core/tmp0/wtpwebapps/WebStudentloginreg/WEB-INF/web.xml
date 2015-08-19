@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+   
+  
+  
+  <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>servlet.LoginServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+  
+    
+	    
+	<servlet>
+	     <servlet-name>RegisterServelet</servlet-name>
+	     <servlet-class>servlet.RegisterServelet</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	     <servlet-name>RegisterServelet</servlet-name>
+	     <url-pattern>/RegisterServelet</url-pattern>
+	</servlet-mapping>
+	    
+	
+	
+	<servlet>
+        <servlet-name>studentInfo</servlet-name>
+        <servlet-class>servlet.StudentInfoServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>studentInfo</servlet-name>
+        <url-pattern>/studentInfo</url-pattern>
+    </servlet-mapping>    
+    
+    
+     
+    
+    
+    <servlet>
+        <servlet-name>UserDel</servlet-name>
+        <servlet-class>servlet.UserDelServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UserDel</servlet-name>
+        <url-pattern>/UserDel</url-pattern>
+    </servlet-mapping>
+    
+  
+    <servlet>
+        <servlet-name>UpdataUser</servlet-name>
+        <servlet-class>servlet.UpdataUserServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UpdataUser</servlet-name>
+        <url-pattern>/updataUser</url-pattern>
+    </servlet-mapping>
+  
+  <servlet>
+        <servlet-name>modifyUser</servlet-name>
+        <servlet-class>servlet.modifyUserServelet</servlet-class>
+    </servlet>
+
+
+    
+    <servlet-mapping>
+        <servlet-name>modifyUser</servlet-name>
+        <url-pattern>/modifyUser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowStuScoServlet</servlet-name>
+    <servlet-class>servlet.ShowStuScoServlet</servlet-class>
+   </servlet>
+
+
+    
+  <servlet-mapping>
+    <servlet-name>ShowStuScoServlet</servlet-name>
+    <url-pattern>/studscoreInfo</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelStuScoServlet</servlet-name>
+    <servlet-class>servlet.DelStuScoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyStudScoServlet</servlet-name>
+    <servlet-class>servlet.ModifyStudScoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStudScoServlet</servlet-name>
+    <servlet-class>servlet.UpdateStudScoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStuScoServlet</servlet-name>
+    <servlet-class>servlet.AddStuScoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowScoreServlet</servlet-name>
+    <servlet-class>servlet.ShowScoreServlet</servlet-class>
+  </servlet>
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>DelStuScoServlet</servlet-name>
+    <url-pattern>/delStuScoInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyStudScoServlet</servlet-name>
+    <url-pattern>/ModifyStudScoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStudScoServlet</servlet-name>
+    <url-pattern>/UpdateStudScoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStuScoServlet</servlet-name>
+    <url-pattern>/addstuscore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowScoreServlet</servlet-name>
+    <url-pattern>/scoreInfo</url-pattern>
+  </servlet-mapping>
+  <!-- 登录过滤 ，所有登录的用户必须在登录成功后设置session置，session.setAttribute("username",登录的用户)-->
+	<filter>	
+		<filter-name>accessFilter</filter-name>
+		<filter-class>util.AccessController</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>accessFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<!-- 登录过滤 -->
+	
+	<!-- 设置seeion值，30分后系统不操作，自动退出 -->
+	<session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+</web-app>

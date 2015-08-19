@@ -1,0 +1,22 @@
+package com.beifeng.edit;
+
+import java.awt.MenuBar;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		JFrame jf = new JFrame();
+		MenuBar mb = new MenuBar();
+		
+		JMenu jm1 = new JMenu("нд╪Ч");
+		
+		
+		jf.setMenuBar(mb);
+		jf.setSize(800,600);
+		jf.setVisible(true);
+	}
+
+}

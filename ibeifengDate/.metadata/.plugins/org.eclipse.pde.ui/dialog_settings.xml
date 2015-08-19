@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PluginExportWizard">
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="exportSource"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="" key="alias"/>
+		<item value="" key="keystore"/>
+		<item value="false" key="signJAR"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="E:\java91" key="destination1"/>
+		<item value="" key="password"/>
+		<item value="E:\java91" key="destination0"/>
+	</section>
+</section>

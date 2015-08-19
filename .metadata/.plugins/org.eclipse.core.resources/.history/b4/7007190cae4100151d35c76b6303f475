@@ -1,0 +1,11 @@
+package com.xp.model;
+
+public class MyManager {
+	
+	private static MyManager instance=new MyManager();
+	
+	private MyManager(){
+		
+	}
+
+}

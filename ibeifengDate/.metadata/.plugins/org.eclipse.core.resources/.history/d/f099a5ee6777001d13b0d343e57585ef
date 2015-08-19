@@ -1,0 +1,15 @@
+package com.beifeng.edit;
+
+import java.awt.MenuBar;
+
+import javax.swing.JFrame;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		JFrame jf = new JFrame();
+		MenuBar mb = new MenuBar();
+		jf.setMenuBar(mb);
+	}
+
+}

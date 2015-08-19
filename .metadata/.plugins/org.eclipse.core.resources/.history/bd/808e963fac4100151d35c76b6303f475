@@ -1,0 +1,7 @@
+package com.xp.action;
+
+import org.apache.struts.action.Action;
+
+public class MyAction extends Action {
+
+}

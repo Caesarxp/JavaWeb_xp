@@ -1,0 +1,7 @@
+package com.xp.form;
+
+import org.apache.struts.action.ActionForm;
+
+public class CalcuForm extends ActionForm {
+
+}

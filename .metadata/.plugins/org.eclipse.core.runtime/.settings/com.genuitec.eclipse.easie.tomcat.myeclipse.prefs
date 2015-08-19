@@ -1,0 +1,5 @@
+ENDORSED_DIRS="D\:\\myEclipse10.7.1\\Common\\plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse_9.0.0.me201211011550\\tomcat/common/endorsed"
+JDK_HOME=C\:\\Program Files\\Java\\jdk1.7.0_45
+LIBRARY_PATH="C\:\\Program Files\\Java\\jdk1.7.0_45\\bin;D\:\\myEclipse10.7.1\\Common\\plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse_9.0.0.me201211011550\\tomcat\\bin"
+eclipse.preferences.version=1
+tomcat.configuration.version.current=2

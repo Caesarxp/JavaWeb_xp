@@ -1,0 +1,38 @@
+package com.xp.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import com.xp.from.MyFrom;
+import com.xp.model.MyManager;
+import com.xp.util.NullUserException;
+
+public class MyAction extends Action {
+
+	@Override
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response)
+			throws Exception {
+		MyFrom mf=(MyFrom)form;
+		String name=mf.getName();
+		String password=mf.getPassword();
+		MyManager mm=MyManager.getInstance();
+		String erroInfo="";
+		try{
+		mm.login(name, password);
+		return mapping.findForward("/WEB-INF/pages/erro.jsp");
+		}
+		catch(NullUserException e){
+			System.out.println(e);
+			erroInfo=e.toString();
+		}
+		
+		return mapping.findForward("/WEB-INF/pages/sucess.jsp");
+	}
+
+}

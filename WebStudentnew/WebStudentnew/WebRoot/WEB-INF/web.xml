@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+   <!-- 退出管理配置 -->
+    <servlet>
+        <servlet-name>LoginOut</servlet-name>
+        <servlet-class>commservlet.LoginOut</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginOut</servlet-name>
+        <url-pattern>/LoginOut</url-pattern>
+    </servlet-mapping>
+   
+   <!-- 管理员刷新管理配置 -->
+   <servlet>
+        <servlet-name>Reflash</servlet-name>
+        <servlet-class>commservlet.Reflash</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Reflash</servlet-name>
+        <url-pattern>/Reflash</url-pattern>
+    </servlet-mapping>
+  
+   <!-- 登录管理配置 -->
+  <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>infoservlet.LoginServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+  
+    
+	<!-- 注册管理配置 -->  
+	<servlet>
+	     <servlet-name>RegisterServelet</servlet-name>
+	     <servlet-class>infoservlet.RegisterServelet</servlet-class>
+	</servlet>
+	    
+	<servlet-mapping>
+	     <servlet-name>RegisterServelet</servlet-name>
+	     <url-pattern>/RegisterServelet</url-pattern>
+	</servlet-mapping>
+	    
+	
+	                                      <!-- 学生信息管理配置 -->
+	 <!-- 显示学生信息配置 -->
+	<servlet>
+        <servlet-name>studentInfo</servlet-name>
+        <servlet-class>infoservlet.StudentInfoServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>studentInfo</servlet-name>
+        <url-pattern>/studentInfo</url-pattern>
+    </servlet-mapping>    
+    
+     <!-- 删除学生信息配置 -->
+    <servlet>
+        <servlet-name>UserDel</servlet-name>
+        <servlet-class>infoservlet.UserDelServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UserDel</servlet-name>
+        <url-pattern>/UserDel</url-pattern>
+    </servlet-mapping>
+    
+   <!-- 更新学生信息前置配置 -->
+    <servlet>
+        <servlet-name>UpdataUser</servlet-name>
+        <servlet-class>infoservlet.UpdataUserServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UpdataUser</servlet-name>
+        <url-pattern>/updataUser</url-pattern>
+    </servlet-mapping>
+    
+  <!-- 更新学生信息后置配置 -->
+  <servlet>
+        <servlet-name>modifyUser</servlet-name>
+        <servlet-class>infoservlet.modifyUserServelet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>modifyUser</servlet-name>
+        <url-pattern>/modifyUser</url-pattern>
+    </servlet-mapping>
+  
+                                            <!-- 学生成绩管理配置 -->
+       <!-- 显示学生成绩配置 -->
+       <servlet>
+	        <servlet-name>StudentgradeInfo</servlet-name>
+	        <servlet-class>scoreservlet.StudentgradeInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>StudentgradeInfo</servlet-name>
+	        <url-pattern>/StudentgradeInfo</url-pattern>
+	    </servlet-mapping>
+      
+      <!-- 添加学生成绩前置配置 -->
+       <servlet>
+	        <servlet-name>GradeAdd</servlet-name>
+	        <servlet-class>scoreservlet.StudentGradeAdd</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>GradeAdd</servlet-name>
+	        <url-pattern>/GradeAdd</url-pattern>
+	    </servlet-mapping>
+	    
+	    <!-- 添加学生成绩后置配置 -->
+	    <servlet>
+	        <servlet-name>StudentAddGradeFinsh</servlet-name>
+	        <servlet-class>scoreservlet.StudentGradeAddFinsh</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>StudentAddGradeFinsh</servlet-name>
+	        <url-pattern>/StudentAddGradeFinsh</url-pattern>
+	    </servlet-mapping>
+	    
+       <!-- 更新学生成绩前置配置 -->
+        <servlet>
+	        <servlet-name>UpdataGrade</servlet-name>
+	        <servlet-class>scoreservlet.StudentUpdataGrade</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>UpdataGrade</servlet-name>
+	        <url-pattern>/UpdataGrade</url-pattern>
+        </servlet-mapping>
+  
+        <!-- 更新学生成绩后置配置 -->
+	    <servlet>
+	        <servlet-name>StudentUpdateGradeFinsh</servlet-name>
+	        <servlet-class>scoreservlet.StudentUpdateGradeFinsh</servlet-class>
+	    </servlet>
+	    
+        <servlet-mapping>
+	        <servlet-name>StudentUpdateGradeFinsh</servlet-name>
+	        <url-pattern>/StudentUpdateGradeFinsh</url-pattern>
+	    </servlet-mapping>
+	   
+	   <!-- 删除学生成绩配置 -->
+	   <servlet>
+	        <servlet-name>StudentGradeDel</servlet-name>
+	        <servlet-class>scoreservlet.StudentGradeDel</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>StudentGradeDel</servlet-name>
+	        <url-pattern>/StudentGradeDel</url-pattern>
+	    </servlet-mapping> 
+  
+                                           <!-- 通告管理配置 -->
+       <!-- 显示通告信息配置 -->
+      <servlet>
+	        <servlet-name>NoticeInfo</servlet-name>
+	        <servlet-class>noticeservlet.NoticeInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>NoticeInfo</servlet-name>
+	        <url-pattern>/NoticeInfo</url-pattern>
+	    </servlet-mapping>
+	   
+	   <!-- 转入添加通告页面配置 -->
+	  <servlet>
+	        <servlet-name>ForwardAddNotice</servlet-name>
+	        <servlet-class>noticeservlet.ForwardAddNotice</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>ForwardAddNotice</servlet-name>
+	        <url-pattern>/ForwardAddNotice</url-pattern>
+	    </servlet-mapping>
+	  
+	 <!-- 添加通告信息配置 -->
+	  <servlet>
+	        <servlet-name>AddNotice</servlet-name>
+	        <servlet-class>noticeservlet.AddNotice</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>AddNotice</servlet-name>
+	        <url-pattern>/AddNotice</url-pattern>
+	    </servlet-mapping>
+	  
+	  <!-- 修改通告信息前置配置 -->
+	    <servlet>
+	        <servlet-name>UpdateNotice</servlet-name>
+	        <servlet-class>noticeservlet.UpdateNotice</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>UpdateNotice</servlet-name>
+	        <url-pattern>/UpdateNotice</url-pattern>
+	    </servlet-mapping>
+	    
+	    <!-- 修改通告信息后置配置 -->
+	    <servlet>
+	        <servlet-name>UpdataNoticeFinsh</servlet-name>
+	        <servlet-class>noticeservlet.UpdataNoticeFinsh</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>UpdataNoticeFinsh</servlet-name>
+	        <url-pattern>/UpdataNoticeFinsh</url-pattern>
+	    </servlet-mapping>
+	    
+	    <!-- 删除通告信息配置 -->
+	    <servlet>
+	        <servlet-name>NoticeDel</servlet-name>
+	        <servlet-class>noticeservlet.NoticeDel</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>NoticeDel</servlet-name>
+	        <url-pattern>/NoticeDel</url-pattern>
+	    </servlet-mapping>
+	    
+	                                       <!-- 管理员账号管理配置 -->
+	  <!-- 查看管理员账号配置 -->
+	   <servlet>
+        <servlet-name>AdminInfo</servlet-name>
+        <servlet-class>adminservlet.AdminInfo</servlet-class>
+       </servlet>
+    
+       <servlet-mapping>
+        <servlet-name>AdminInfo</servlet-name>
+        <url-pattern>/AdminInfo</url-pattern>
+       </servlet-mapping>
+      
+      <!-- 修改管理员账号密码前置配置 -->
+       <servlet>
+        <servlet-name>UpdataAdmin</servlet-name>
+        <servlet-class>adminservlet.UpdataAdminPassword</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>UpdataAdmin</servlet-name>
+        <url-pattern>/UpdataAdmin</url-pattern>
+      </servlet-mapping>
+       
+       <!-- 修改管理员账号密码后置配置 -->
+       <servlet>
+        <servlet-name>updataAdminFinsh</servlet-name>
+        <servlet-class>adminservlet.UpdataAdminPasswordFinsh</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>updataAdminFinsh</servlet-name>
+        <url-pattern>/updataAdminFinsh</url-pattern>
+      </servlet-mapping>
+      
+                                          <!-- 课程管理配置 -->
+       <!-- 查找课程配置 -->
+       <servlet>
+	        <servlet-name>FindAllCourseInfo</servlet-name>
+	        <servlet-class>courseservlet.FindAllCourseInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindAllCourseInfo</servlet-name>
+	        <url-pattern>/FindAllCourseInfo</url-pattern>
+	    </servlet-mapping>
+	    
+	    <!-- 更新课程前置配置 -->
+	   <servlet>
+        <servlet-name>UpdataCourse</servlet-name>
+        <servlet-class>courseservlet.UpdataCourse</servlet-class>
+       </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>UpdataCourse</servlet-name>
+        <url-pattern>/UpdataCourse</url-pattern>
+      </servlet-mapping>
+      
+      <!-- 更新课程后置配置 -->
+      <servlet>
+        <servlet-name>UpdateCourseFinsh</servlet-name>
+        <servlet-class>courseservlet.UpdateCourseFinsh</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>UpdateCourseFinsh</servlet-name>
+        <url-pattern>/UpdateCourseFinsh</url-pattern>
+      </servlet-mapping>
+      
+       <!-- 删除课程配置 -->
+      <servlet>
+        <servlet-name>courseDel</servlet-name>
+        <servlet-class>courseservlet.courseDel</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>courseDel</servlet-name>
+        <url-pattern>/courseDel</url-pattern>
+      </servlet-mapping>
+      
+      <!-- 录入课程前置配置 -->
+      <servlet>
+        <servlet-name>courseAdd</servlet-name>
+        <servlet-class>courseservlet.courseAdd</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>courseAdd</servlet-name>
+        <url-pattern>/courseAdd</url-pattern>
+      </servlet-mapping>
+      
+      <!-- 录入课程后置配置 -->
+      <servlet>
+        <servlet-name>AddCourseFinsh</servlet-name>
+        <servlet-class>courseservlet.AddCourseFinsh</servlet-class>
+      </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>AddCourseFinsh</servlet-name>
+        <url-pattern>/AddCourseFinsh</url-pattern>
+      </servlet-mapping>
+      
+                                             <!-- 学生角色配置 -->
+       <!-- 查看学生信息配置 -->
+       <servlet>
+	        <servlet-name>FindStudentInfo</servlet-name>
+	        <servlet-class>student.servlet.FindStudentInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindStudentInfo</servlet-name>
+	        <url-pattern>/FindStudentInfo</url-pattern>
+	    </servlet-mapping>
+	    
+	    <!-- 查看学生成绩配置 -->
+	    <servlet>
+	        <servlet-name>FindStudentgradeInfo</servlet-name>
+	        <servlet-class>student.servlet.FindStudentgradeInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindStudentgradeInfo</servlet-name>
+	        <url-pattern>/FindStudentgradeInfo</url-pattern>
+	    </servlet-mapping>
+	     
+	    <!-- 查看通告信息配置 -->
+	    <servlet>
+	        <servlet-name>FindStudentTitleInfo</servlet-name>
+	        <servlet-class>student.servlet.FindStudentTitleInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindStudentTitleInfo</servlet-name>
+	        <url-pattern>/FindStudentTitleInfo</url-pattern>
+	    </servlet-mapping>
+	   
+	    <!-- 显示详细通告信息配置 -->
+	    <servlet>
+	        <servlet-name>FindNotice</servlet-name>
+	        <servlet-class>student.servlet.FindNotice</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindNotice</servlet-name>
+	        <url-pattern>/FindNotice</url-pattern>
+	    </servlet-mapping>
+	     
+	     <!-- 查看课程信息配置 -->
+	    <servlet>
+	        <servlet-name>FindClassInfo</servlet-name>
+	        <servlet-class>student.servlet.FindClassInfo</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>FindClassInfo</servlet-name>
+	        <url-pattern>/FindClassInfo</url-pattern>
+	    </servlet-mapping>
+	   
+	     <!-- 学生刷新管理配置 -->
+	    <servlet>
+	        <servlet-name>StudentReflash</servlet-name>
+	        <servlet-class>student.servlet.StudentReflash</servlet-class>
+	    </servlet>
+	    
+	    <servlet-mapping>
+	        <servlet-name>StudentReflash</servlet-name>
+	        <url-pattern>/StudentReflash</url-pattern>
+	    </servlet-mapping>
+	    
+   <!-- 请求验证过滤器配置 -->
+  <!-- 登录过滤 ，所有登录的用户必须在登录成功后设置session置，session.setAttribute("username",登录的用户)-->
+	 <filter>	
+		<filter-name>accessFilter</filter-name>
+		<filter-class>util.AccessController</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>accessFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	
+	<!-- 编码过滤器配置 -->
+	<filter>
+		<filter-name>CharsetEncodingFilter</filter-name>
+		<filter-class>util.CharsetEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>CharsetEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	
+	
+	<!-- 设置seeion值，30分后系统不操作，自动退出 -->
+	<session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+</web-app>

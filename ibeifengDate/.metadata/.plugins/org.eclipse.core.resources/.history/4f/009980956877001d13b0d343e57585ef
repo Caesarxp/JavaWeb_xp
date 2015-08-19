@@ -1,0 +1,25 @@
+package com.beifeng.edit;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		JFrame jf = new JFrame();
+		JMenuBar mb = new JMenuBar();
+		
+		JMenu jm1 = new JMenu("ÎÄ¼þ");
+		JMenu jm2 = new JMenu("±à¼­");
+		
+		mb.add(jm1);
+		mb.add(jm2);
+		
+		
+		jf.setJMenuBar(mb);
+		jf.setSize(800,600);
+		jf.setVisible(true);
+	}
+
+}

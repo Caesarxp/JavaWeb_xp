@@ -1,0 +1,23 @@
+package com.xp.util;
+
+public class CalclatorTld {
+	
+	public static String Calcla(double v1,double v2,String flag){
+		String result=null;
+		if("+".equals(flag)){
+			request.setAttribute("result", v1+v2);
+		}
+		else if("-".equals(flag)){
+			request.setAttribute("result", v1-v2);
+		}
+		else if("*".equals(flag)){
+			request.setAttribute("result", v1*v2);
+			
+		}
+		else if("/".equals(flag)){
+		
+			request.setAttribute("result", v1/v2);
+		}
+		return result;
+	}
+}

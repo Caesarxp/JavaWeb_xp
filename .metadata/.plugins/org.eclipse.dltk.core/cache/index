@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/report/AbstractBaseReportDocument.js" timestamp="1276756942000" lastAccessTime="1397577770101"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtEventDispatcher.js" timestamp="1276756942000" lastAccessTime="1397577770326"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/BrowserUtility.js" timestamp="1276756942000" lastAccessTime="1397577770332"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtExportReportDialog.js" timestamp="1276756942000" lastAccessTime="1397577770337"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/report/BirtReportDocument.js" timestamp="1276756942000" lastAccessTime="1397577770343"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtSoapResponse.js" timestamp="1276756942000" lastAccessTime="1397577770348"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/AbstractParameterDialog.js" timestamp="1276756942000" lastAccessTime="1397577770350"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/BirtToolbar.js" timestamp="1276756942000" lastAccessTime="1397577770356"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/BirtNavigationBar.js" timestamp="1276756942000" lastAccessTime="1397577770358"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtConfirmationDialog.js" timestamp="1276756942000" lastAccessTime="1397577770363"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/Constants.js" timestamp="1276756942000" lastAccessTime="1397577770365"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/report/AbstractReportComponent.js" timestamp="1284720338000" lastAccessTime="1397577770368"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/BirtUtility.js" timestamp="1276756942000" lastAccessTime="1397577770372"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtEvent.js" timestamp="1276756942000" lastAccessTime="1397577770385"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtExceptionDialog.js" timestamp="1276756942000" lastAccessTime="1397577770400"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtPrintReportServerDialog.js" timestamp="1276756942000" lastAccessTime="1397577770404"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtCommunicationManager.js" timestamp="1276756942000" lastAccessTime="1397577770416"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtSoapRequest.js" timestamp="1276756942000" lastAccessTime="1397577770419"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/AbstractUIComponent.js" timestamp="1276756942000" lastAccessTime="1397577770428"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/lib/prototype.js" timestamp="1276756942000" lastAccessTime="1397577770430"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/AbstractExceptionDialog.js" timestamp="1276756942000" lastAccessTime="1397577770480"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/AbstractBaseDialog.js" timestamp="1276756942000" lastAccessTime="1397577770484"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/mh/BirtBaseResponseHandler.js" timestamp="1276756942000" lastAccessTime="1397577770863"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/AbstractBaseToc.js" timestamp="1276756942000" lastAccessTime="1397577770866"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/report/ReportComponentIdRegistry.js" timestamp="1276756942000" lastAccessTime="1397577770875"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/taglib/ParameterGroup.js" timestamp="1276756942000" lastAccessTime="1397577770879"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtPrintReportDialog.js" timestamp="1276756942000" lastAccessTime="1397577770881"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtTabedDialogBase.js" timestamp="1276756942000" lastAccessTime="1397577770888"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/BirtProgressBar.js" timestamp="1283760834000" lastAccessTime="1397577770891"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/AbstractBaseToolbar.js" timestamp="1276756942000" lastAccessTime="1397577770896"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtParameterDialog.js" timestamp="1276756942000" lastAccessTime="1397577770899"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/BirtDndManager.js" timestamp="1276756942000" lastAccessTime="1397577770923"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/taglib/SoapResponseHelper.js" timestamp="1276756942000" lastAccessTime="1397577770929"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/app/BirtToc.js" timestamp="1276756942000" lastAccessTime="1397577770933"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/mh/BirtGetUpdatedObjectsResponseHandler.js" timestamp="1276756942000" lastAccessTime="1397577770935"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/core/Mask.js" timestamp="1276756942000" lastAccessTime="1397577770938"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/Debug.js" timestamp="1276756942000" lastAccessTime="1397577770943"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/taglib/ProgressBar.js" timestamp="1276756942000" lastAccessTime="1397577770949"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/taglib/CascadingParameter.js" timestamp="1276756942000" lastAccessTime="1397577770954"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/Printer.js" timestamp="1276756942000" lastAccessTime="1397577770958"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/ui/dialog/BirtSimpleExportDataDialog.js" timestamp="1276756942000" lastAccessTime="1397577770967"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/taglib/ParameterDefinition.js" timestamp="1276756942000" lastAccessTime="1397577770978"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/pBook/WebRoot/report-viewer/birt/ajax/utility/BirtPosition.js" timestamp="1276756942000" lastAccessTime="1397577770982"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/bootstrap/js/bootstrap.js" timestamp="1405930374000" lastAccessTime="1421068770779"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/bootstrap/js/bootstrap.min.js" timestamp="1405930374000" lastAccessTime="1421068770732"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/bootstrap/js/jQuery.js" timestamp="1405930374000" lastAccessTime="1421068771688"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/js/updatepassword.js" timestamp="1405930374000" lastAccessTime="1421068772923"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/jquery/jquery-1.5.1.js" timestamp="1405930374000" lastAccessTime="1421068772372"/>
+  <entries path="C:/Users/Administrator/Desktop/20121576 &#x9ec4;&#x5f6c;/20121576 &#x9ec4;&#x5f6c;/StudentManagerWeb/WebRoot/js/login.js" timestamp="1405930374000" lastAccessTime="1421068772807"/>
+  <entries path="E:/javaweb&#x5f00;&#x53d1;/struts/jakarta-struts-1.2.2-src/jakarta-struts/contrib/tag-doc/src/resources/taglibreport/xbPositionableElement.js" timestamp="1049171357000" lastAccessTime="1439527762524"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/LoginStruct/WebRoot/WEB-INF/classes/jakarta-struts/contrib/tag-doc/src/resources/taglibreport/xbPositionableElement.js" timestamp="1049171357000" lastAccessTime="1439527891386"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/struts_training_usermgr/struts_training_usermgr/WebRoot/script/JSCalendar.js" timestamp="1185110164000" lastAccessTime="1439991225440"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/struts_training_usermgr/struts_training_usermgr/WebRoot/script/client_validate.js" timestamp="1185110164000" lastAccessTime="1439991225436"/>
+  <entries path="E:/web&#x5b9e;&#x9a8c;&#x5f00;&#x53d1;/struts_training_usermgr/struts_training_usermgr/WebRoot/script/windows.js" timestamp="1185110164000" lastAccessTime="1439991225458"/>
+</cache:CacheIndex>
