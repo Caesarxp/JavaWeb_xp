@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="89" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="720" width="1108" x="263" y="116">
+<window height="720" width="1108" x="117" y="83">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -21,9 +21,9 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="115" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -32,12 +32,12 @@
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor" itemType="typePlaceholder" x="356" y="22"/>
-<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.datatools.sqltools.sqlbuilder" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -46,46 +46,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/index.jsp" title="index.jsp" tooltip="WebStudentnew/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/WebRoot/index.jsp"/>
-</editor>
-<editor id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" partName="web.xml" path="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/WEB-INF/web.xml" title="web.xml" tooltip="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/WebStudentnew/WebRoot/WEB-INF/web.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginServelet.java" partName="LoginServelet.java" path="E:/web实验开发/WebStudentnew/WebStudentnew/src/infoservlet/LoginServelet.java" title="LoginServelet.java" tooltip="WebStudentnew/src/infoservlet/LoginServelet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/src/infoservlet/LoginServelet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1075" selectionTopPixel="732"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" partName="login.jsp" path="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/login.jsp" title="login.jsp" tooltip="WebStudentnew/WebRoot/login.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/WebRoot/login.jsp"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="left.jsp" partName="left.jsp" path="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/left.jsp" title="left.jsp" tooltip="WebStudentnew/WebRoot/left.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/WebRoot/left.jsp"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DB.java" partName="DB.java" path="E:/web实验开发/struts_training_usermgr/struts_training_usermgr/src/com/bjsxt/drp/business/util/DB.java" title="DB.java" tooltip="struts_training_usermgr/src/com/bjsxt/drp/business/util/DB.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/struts_training_usermgr/src/com/bjsxt/drp/business/util/DB.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="447" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentGradeAdd.java" partName="StudentGradeAdd.java" path="E:/web实验开发/WebStudentnew/WebStudentnew/src/scoreservlet/StudentGradeAdd.java" title="StudentGradeAdd.java" tooltip="WebStudentnew/src/scoreservlet/StudentGradeAdd.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/src/scoreservlet/StudentGradeAdd.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="960" selectionTopPixel="236"/>
-</editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="StudentGradeAdd.jsp" partName="StudentGradeAdd.jsp" path="E:/web实验开发/WebStudentnew/WebStudentnew/WebRoot/WEB-INF/scorejsp/StudentGradeAdd.jsp" title="StudentGradeAdd.jsp" tooltip="WebStudentnew/WebRoot/WEB-INF/scorejsp/StudentGradeAdd.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebStudentnew/WebRoot/WEB-INF/scorejsp/StudentGradeAdd.jsp"/>
-</editor>
 </editors>
 <views>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser">
@@ -112,8 +76,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -163,7 +126,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.genuitec.eclipse.webdesigner3.editors.jsp" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="com.genuitec.myeclipse.perspective.myeclipseperspective" id="&lt;MyEclipse_Java_Enterprise&gt;" label="&lt;MyEclipse Java Enterprise&gt;"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
@@ -694,13 +657,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/WebStudentnew/WebRoot/left.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebStudentnew/src/scoreservlet/StudentGradeAdd.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/WebStudentnew/WebRoot/WEB-INF/scorejsp/StudentGradeAdd.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/WebStudentnew/WebRoot/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebStudentnew/src/infoservlet/LoginServelet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/WebStudentnew/WebRoot/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/struts_training_usermgr/src/com/bjsxt/drp/business/util/DB.java"/>
 </editors>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="web.xml" index="1"/>
-<item historyLabel="LoginServelet.java" index="2">
-<position info="not_deleted" x="1556" y="10"/>
-</item>
-<item historyLabel="web.xml" index="1"/>
 <item historyLabel="LoginServelet.java" index="2">
 <position info="not_deleted" x="1380" y="0"/>
 </item>
@@ -778,21 +739,21 @@
 <item historyLabel="StudentGradeAdd.java" index="12">
 <position info="not_deleted" x="960" y="19"/>
 </item>
-<item active="true" historyLabel="StudentGradeAdd.jsp" index="13"/>
+<item historyLabel="StudentGradeAdd.jsp" index="13"/>
+<item historyLabel="web.xml" index="14"/>
+<item historyLabel="LoginServelet.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="login.jsp" index="16"/>
+<item active="true" historyLabel="DB.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topleft"/>
-<trimItem IMemento.internal.id="bottomleft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@e3e5c2"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@144d6"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -800,7 +761,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
